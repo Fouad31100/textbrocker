@@ -1,0 +1,97 @@
+/* Ajoute une animation à l'en-tête de votre page */
+header {
+    animation-name: header-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  /* Définit l'animation de l'en-tête */
+  @keyframes header-animation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+  }
+  
+  /* Ajoute une bordure colorée autour des images */
+  img {
+    border: 5px solid #FF4500;
+  }
+  
+  /* Ajoute une ombre douce à toutes les boîtes */
+  .box {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Change la couleur de fond du bouton au survol */
+  button:hover {
+    background-color: #FF4500;
+    color: #FFFFFF;
+  }
+  
+  /* Ajoute un effet de survol d'image qui réduit la luminosité */
+  img:hover {
+    filter: brightness(75%);
+  }
+  
+  /* Ajoute une animation à l'icône de votre page */
+  .icon {
+    animation-name: icon-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  /* Définit l'animation de l'icône */
+  @keyframes icon-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+  /* Styles pour le titre de la page */
+h1 {
+	font-size: 36px;
+	color: #2e2e2e;
+	text-align: center;
+	margin-top: 40px;
+}
+
+/* Styles pour les paragraphes */
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #4d4d4d;
+	margin-bottom: 20px;
+}
+
+/* Styles pour les liens */
+a {
+	color: #d82c2c;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Styles pour les images */
+img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+/* Styles pour les citations */
+blockquote {
+	font-style: italic;
+	color: #9b9b9b;
+	padding: 10px;
+	border-left: 3px solid #d82c2c;
+	margin: 20px 0;
+}
+
+/* Styles pour le fond de la page */
+body {
+	background-color: #f2f2f2;
+}
